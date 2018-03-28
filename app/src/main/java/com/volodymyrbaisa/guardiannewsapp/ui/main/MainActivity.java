@@ -1,6 +1,5 @@
 package com.volodymyrbaisa.guardiannewsapp.ui.main;
 
-import android.app.Fragment;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -55,7 +54,7 @@ public class MainActivity extends DaggerAppCompatActivity implements NavigationV
     private void init() {
         setSupportActionBar(mToolbar);
         ActionBar actionBar = getSupportActionBar();
-        if(actionBar != null) {
+        if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setDisplayShowHomeEnabled(true);
         }

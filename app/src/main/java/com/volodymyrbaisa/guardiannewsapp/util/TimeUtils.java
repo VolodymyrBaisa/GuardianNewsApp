@@ -36,10 +36,4 @@ public class TimeUtils {
         }
         return time;
     }
-
-    public static String getCurentDate(){
-        final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.US);
-        Calendar calendar = Calendar.getInstance();
-        return sdf.format(calendar.getTime());
-    }
 }
