@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.volodymyrbaisa.guardiannewsapp.custom.NumberPickerPreference
+        android:defaultValue="@string/number_picker_preference_default_value"
+        android:key="@string/number_picker_preference_key"
+        android:summary="@string/number_picker_preference_summary"
+        android:title="@string/number_picker_preference_title"
+        app:maxValue="100"
+        app:minValue="10" />
+
+    <EditTextPreference
+        android:defaultValue="@string/edit_text_preference_default_value"
+        android:key="@string/edit_text_preference_key"
+        android:summary="@string/edit_text_preference_summary"
+        android:title="@string/edit_text_preference_title" />
+</PreferenceScreen>

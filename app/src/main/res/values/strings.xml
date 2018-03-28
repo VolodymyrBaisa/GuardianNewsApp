@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Guardian News App</string>
+
+    <string name="world">World</string>
+    <string name="sport">Sport</string>
+    <string name="football">Football</string>
+    <string name="culture">Culture</string>
+    <string name="business">Business</string>
+    <string name="fashion">Fashion</string>
+    <string name="technology">Technology</string>
+    <string name="travel">Travel</string>
+    <string name="money">Money</string>
+    <string name="science">Science</string>
+    <string name="environment">Environment</string>
+
+    <string name="drawer_open" translatable="false">Drawer open</string>
+    <string name="drawer_close" translatable="false">Drawer close</string>
+    
+    <string name="settings">Settings</string>
+    <string name="edit_text_preference_default_value" translatable="false">test</string>
+    <string name="number_picker_preference_summary">The number of pages returned in this call. Pick a pages between 10 and 100</string>
+    <string name="number_picker_preference_default_value">10</string>
+    <string name="number_picker_preference_title">Max pages</string>
+    <string name="number_picker_preference_key" translatable="false">max_page_size</string>
+
+    <string name="edit_text_preference_summary">The API key used for the query</string>
+    <string name="edit_text_preference_title">API-key</string>
+    <string name="edit_text_preference_key" translatable="false">api_key</string>
+</resources>
