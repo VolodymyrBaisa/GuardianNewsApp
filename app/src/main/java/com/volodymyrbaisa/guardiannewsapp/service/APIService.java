@@ -30,10 +30,6 @@ public class APIService implements Serializable {
         return mPage;
     }
 
-    public int getPageSize() {
-        return mPageSize;
-    }
-
     public void setPage(int page) {
         mPage = page;
     }

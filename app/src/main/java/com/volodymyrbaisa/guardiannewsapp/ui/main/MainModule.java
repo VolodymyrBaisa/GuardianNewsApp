@@ -10,6 +10,7 @@ import dagger.android.ContributesAndroidInjector;
 
 /**
  * Created by Bios on 3/4/2018.
+ * This is a Dagger module.
  */
 @Module
 public abstract class MainModule {

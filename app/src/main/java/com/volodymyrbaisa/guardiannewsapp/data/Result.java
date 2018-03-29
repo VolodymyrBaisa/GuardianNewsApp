@@ -16,7 +16,7 @@ public class Result {
     @SerializedName("webPublicationDate")
     private String mPublicationDate;
     @SerializedName("tags")
-    private List<Tag> mTags = null;
+    private List<Tag> mTags;
     @SerializedName("fields")
     private Fields mFields;
 

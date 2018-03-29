@@ -14,7 +14,7 @@ public class Response {
     @SerializedName("currentPage")
     private Integer mCurrentPage;
     @SerializedName("results")
-    private List<Result> mResults = null;
+    private List<Result> mResults;
 
     public Response(Integer pageSize, Integer currentPage, List<Result> results) {
         this.mPageSize = pageSize;

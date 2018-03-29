@@ -3,7 +3,6 @@ package com.volodymyrbaisa.guardiannewsapp.ui.main;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
@@ -137,11 +136,6 @@ public class MainFragment extends DaggerFragment implements MainContact.View {
     @Override
     public void setArticleData(Article article) {
         mRecyclerAdapter.setArticleData(article);
-    }
-
-    @Override
-    public void clearArticleData() {
-        mRecyclerAdapter.clear();
     }
 
     @Override

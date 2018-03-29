@@ -15,6 +15,7 @@ import dagger.Provides;
  * Created by Bios on 3/11/2018.
  */
 
+@SuppressWarnings("unchecked")
 @Module
 public abstract class TaskModule {
     @Provides

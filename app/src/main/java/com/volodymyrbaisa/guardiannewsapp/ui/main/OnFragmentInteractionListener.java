@@ -5,5 +5,5 @@ package com.volodymyrbaisa.guardiannewsapp.ui.main;
  */
 
 public interface OnFragmentInteractionListener {
-    public void onFragmentInteraction(String title);
+    void onFragmentInteraction(String title);
 }

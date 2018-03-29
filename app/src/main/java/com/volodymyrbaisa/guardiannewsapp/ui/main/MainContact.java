@@ -15,8 +15,6 @@ public interface MainContact {
     interface View extends BaseView<Presenter> {
         void setArticleData(Article article);
 
-        void clearArticleData();
-
         void showLoadingProgress(boolean show);
 
         void initLoader(int id, Bundle args,
